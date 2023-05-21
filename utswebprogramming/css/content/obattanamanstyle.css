@@ -1,0 +1,365 @@
+.obattanaman .container {
+  /* border: 1px solid black; */
+  display: flex;
+}
+.obattanaman .container .content1 {
+  /* border: 1px solid black; */
+  margin: 5px;
+  width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: rgba(255, 242, 0, 0.5);
+  border-radius: 5px;
+}
+.obattanaman .container .content1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+.obattanaman .container .content1 h2 {
+  background-color: rgb(47, 80, 171);
+  border-bottom: 5px solid rgb(157, 157, 255);
+  color: white;
+  font-size: 25px;
+  padding: 5px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.obat {
+  /* border: 1px solid black; */
+  width: 130px;
+  height: 100px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* content 2 */
+.obattanaman .container .content2 {
+  /* border: 1px solid black; */
+  margin: 5px;
+  width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+}
+.obattanaman .container .content2 h1 {
+  font-family: 'poppins';
+  font-size: 25px;
+  background: rgb(80, 80, 187);
+  border-bottom: 5px solid rgb(198, 198, 255);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.obattanaman .container .content2 .card-obat {
+  /* border: 1px solid grey; */
+  display: grid;
+  grid-template-areas:
+    'image judul-obat'
+    'image deskripsi'
+    'image harga'
+    'image button-beli';
+  padding: 5px;
+margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgb(171, 171, 171);
+}
+
+
+/* card 1 */
+.obattanaman .container .content2 .card-obat.satu .items.image {
+  grid-area: image;
+  width: 250px;
+  border: 4px solid rgb(102, 167, 176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.obattanaman .container .content2 .card-obat.satu .items.judul-obat {
+  grid-area: judul-obat;
+  font-family: 'poppins';
+  font-size: 20px;
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.obattanaman .container .content2 .card-obat.satu .items.deskripsi {
+  grid-area: deskripsi;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 5px;
+}
+.obattanaman .container .content2 .card-obat.satu .items.harga {
+  grid-area: harga;
+  background-color: rgb(194, 50, 50);
+  border-bottom: 5px solid rgb(147, 18, 18);
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.obattanaman .container .content2 .card-obat.satu .items.button-beli {
+  grid-area: button-beli;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.obattanaman .container .content2 .card-obat.satu .items.button-beli a {
+  background-color: rgb(7, 77, 107);
+  color: white;
+  padding: 2px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.obattanaman .container .content2 .card-obat.satu .items.button-beli a:hover {
+  background-color: rgb(3, 108, 82);
+  color: white;
+  padding: 0px 10px;
+  height: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+/* akhir card 1 */
+
+/* card 2 */
+.obattanaman .container .content2 .card-obat.dua .items.image {
+  grid-area: image;
+  width: 250px;
+  border: 4px solid rgb(102, 167, 176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.obattanaman .container .content2 .card-obat.dua .items.judul-obat {
+  grid-area: judul-obat;
+  font-family: 'poppins';
+  font-size: 20px;
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.obattanaman .container .content2 .card-obat.dua .items.deskripsi {
+  grid-area: deskripsi;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 5px;
+}
+.obattanaman .container .content2 .card-obat.dua .items.harga {
+  grid-area: harga;
+  background-color: rgb(194, 50, 50);
+  border-bottom: 5px solid rgb(147, 18, 18);
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.obattanaman .container .content2 .card-obat.dua .items.button-beli {
+  grid-area: button-beli;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.obattanaman .container .content2 .card-obat.dua .items.button-beli a {
+  background-color: rgb(7, 77, 107);
+  color: white;
+  padding: 2px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.obattanaman .container .content2 .card-obat.dua .items.button-beli a:hover {
+  background-color: rgb(3, 108, 82);
+  color: white;
+  padding: 0px 10px;
+  height: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+/* akhir card 2 */
+
+/* card 3 */
+.obattanaman .container .content2 .card-obat.tiga .items.image {
+  grid-area: image;
+  width: 250px;
+  border: 4px solid rgb(102, 167, 176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.obattanaman .container .content2 .card-obat.tiga .items.judul-obat {
+  grid-area: judul-obat;
+  font-family: 'poppins';
+  font-size: 20px;
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.obattanaman .container .content2 .card-obat.tiga .items.deskripsi {
+  grid-area: deskripsi;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 5px;
+}
+.obattanaman .container .content2 .card-obat.tiga .items.harga {
+  grid-area: harga;
+  background-color: rgb(194, 50, 50);
+  border-bottom: 5px solid rgb(147, 18, 18);
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.obattanaman .container .content2 .card-obat.tiga .items.button-beli {
+  grid-area: button-beli;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.obattanaman .container .content2 .card-obat.tiga .items.button-beli a {
+  background-color: rgb(7, 77, 107);
+  color: white;
+  padding: 2px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.obattanaman .container .content2 .card-obat.tiga .items.button-beli a:hover {
+  background-color: rgb(3, 108, 82);
+  color: white;
+  padding: 0px 10px;
+  height: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+/* akhir card 3 */
+
+/* card 4 */
+.obattanaman .container .content2 .card-obat.empat .items.image {
+  grid-area: image;
+  width: 250px;
+  border: 4px solid rgb(102, 167, 176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.obattanaman .container .content2 .card-obat.empat .items.judul-obat {
+  grid-area: judul-obat;
+  font-family: 'poppins';
+  font-size: 20px;
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.obattanaman .container .content2 .card-obat.empat .items.deskripsi {
+  grid-area: deskripsi;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 5px;
+}
+.obattanaman .container .content2 .card-obat.empat .items.harga {
+  grid-area: harga;
+  background-color: rgb(194, 50, 50);
+  border-bottom: 5px solid rgb(147, 18, 18);
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.obattanaman .container .content2 .card-obat.empat .items.button-beli {
+  grid-area: button-beli;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.obattanaman .container .content2 .card-obat.empat .items.button-beli a {
+  background-color: rgb(7, 77, 107);
+  color: white;
+  padding: 2px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.obattanaman .container .content2 .card-obat.empat .items.button-beli a:hover {
+  background-color: rgb(3, 108, 82);
+  color: white;
+  padding: 0px 10px;
+  height: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+/* akhir card 4 */
+
+/* card 5 */
+.obattanaman .container .content2 .card-obat.lima .items.image {
+  grid-area: image;
+  width: 250px;
+  border: 4px solid rgb(102, 167, 176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.obattanaman .container .content2 .card-obat.lima .items.judul-obat {
+  grid-area: judul-obat;
+  font-family: 'poppins';
+  font-size: 20px;
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.obattanaman .container .content2 .card-obat.lima .items.deskripsi {
+  grid-area: deskripsi;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 5px;
+}
+.obattanaman .container .content2 .card-obat.lima .items.harga {
+  grid-area: harga;
+  background-color: rgb(194, 50, 50);
+  border-bottom: 5px solid rgb(147, 18, 18);
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.obattanaman .container .content2 .card-obat.lima .items.button-beli {
+  grid-area: button-beli;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.obattanaman .container .content2 .card-obat.lima .items.button-beli a {
+  background-color: rgb(7, 77, 107);
+  color: white;
+  padding: 2px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.obattanaman .container .content2 .card-obat.lima .items.button-beli a:hover {
+  background-color: rgb(3, 108, 82);
+  color: white;
+  padding: 0px 10px;
+  height: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+/* akhir card 5 */
